@@ -1,0 +1,21 @@
+.project {
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.description {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.descriptionTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.readMoreBtn {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(0,136,169,1);
+    text-align: center;
+}

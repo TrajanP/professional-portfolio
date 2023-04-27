@@ -1,0 +1,53 @@
+Nav Bar
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} 
+
+body {
+    margin: 0px;
+    background-color: #151030;
+    font-family: 'Hubot-Sans', sans-serif; 
+    background-size: cover;
+}
+
+.main {
+    margin: 60px;
+    padding: 15px;
+    border-radius: 25px;
+    width:55%;
+    background-color: rgb(46, 47, 54, .6);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(207, 207, 207);
+    border-width: 3px;
+}
+.main-title {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.main-body {
+    color: red;
+}
+
+/* Used in faq accordion  */
+.itemContent {
+    color: rgb(207, 207, 207);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+  
+  .itemContent.show {
+    height: auto;
+    color: rgb(207, 207, 207);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+  }
